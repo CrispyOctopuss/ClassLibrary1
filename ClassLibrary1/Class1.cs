@@ -8,7 +8,7 @@ namespace ClassLibrary1
 
         public string Prop1 { get; set; }
 
-        public Class1(string p, string p1)
+        public Class1(string p, string p1="тестерино")
         {
             Prop = p;
             Prop1 = p1;
