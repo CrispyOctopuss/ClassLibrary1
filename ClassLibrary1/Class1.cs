@@ -6,11 +6,7 @@ namespace ClassLibrary1
     {
         public string Prop;
 
-        public string Prop1
-        {
-            get => Prop;
-            set => Prop = value;
-        }
+        public string Prop1;
 
         public Class1(string p, string p1)
         {
