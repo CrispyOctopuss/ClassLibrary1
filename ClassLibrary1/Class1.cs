@@ -11,7 +11,7 @@ namespace ClassLibrary1
         public Class1(string p, string p1="тестерино")
         {
             Prop = p;
-            Prop1 = p1;
+            Prop1 = p1.ToLower();
         }
     }
 }    
