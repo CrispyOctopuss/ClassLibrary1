@@ -4,14 +4,14 @@ namespace ClassLibrary1
 {
     public class Class1
     {
-        public string Prop { get; set; }
+        public string Name1 { get; set; }
 
-        public string Prop1 { get; set; }
+        public string Name2 { get; set; }
 
-        public Class1(string p, string p1="тестовое сообщение")
+        public Class1(string n1, string n2="тестовое сообщение")
         {
-            Prop = p.ToUpper();
-            Prop1 = p1;
+            Name1 = n1.ToUpper();
+            Name2 = n2;
         }
     }
 }    
