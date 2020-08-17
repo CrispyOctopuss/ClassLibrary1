@@ -8,10 +8,10 @@ namespace ClassLibrary1
 
         public string Name2 { get; set; }
 
-        public Class1(string p, string p1="тестовое сообщение")
+        public Class1(string n1, string n2="тестовое сообщение")
         {
-            Name1 = p.ToUpper();
-            Name2 = p1;
+            Name1 = n1.ToUpper();
+            Name2 = n2;
         }
     }
 }    
